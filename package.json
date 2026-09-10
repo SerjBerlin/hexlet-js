@@ -1,23 +1,26 @@
 {
   "name": "hexlet",
   "version": "1.0.0",
-  "type": "module",
   "description": "Мой первый проект на Хекслете",
   "homepage": "https://github.com/SerjBerlin/hexlet-js#readme",
   "bugs": {
     "url": "https://github.com/SerjBerlin/hexlet-js/issues"
   },
+  "license": "ISC",
+  "author": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SerjBerlin/hexlet-js.git"
   },
-  "license": "ISC",
-  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "lodash": "^4.18.1"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.67.0"
   }
 }
